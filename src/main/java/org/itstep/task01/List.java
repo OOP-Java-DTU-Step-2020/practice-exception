@@ -10,6 +10,10 @@ public class List {
         this.size = size;
         obj = new Object[size];
     }
+   
+    public Object get(int idx) {
+        return obj[idx];
+    }
 
     public void add(Object item) {
         obj[cur++] = item;
